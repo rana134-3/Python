@@ -1,0 +1,15 @@
+#Slicing of string and some of its methods/functions
+s="Hello world"
+print(s[0:5])
+print(s[0::2])
+print(s[::-1])
+print(s[0:5:-1])
+print(s[4:-12:-1])
+print(s.count('l'))
+print(s.find("o"))
+print(s.title())
+print(s.upper())
+print(s.lower())
+print(s.replace("world","Python"))
+print(s.casefold())
+print(len(s))
